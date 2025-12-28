@@ -16,6 +16,8 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.portifolio.course.entities.User;
 import com.portifolio.course.services.UserService;
+import org.springframework.web.bind.annotation.PutMapping;
+
 
 
 @RestController
@@ -50,5 +52,10 @@ public class UserResource {
         return ResponseEntity.noContent().build();
     }
 
+    @PutMapping(value = "/{id}")
+    public ResponseEntity<User> update(@PathVariable Long id, @RequestBody User obj){
+        obj = service.update(id, obj);
+        return ResponseEntity.ok().body(obj);
+    }
 
 }
