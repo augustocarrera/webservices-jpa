@@ -54,3 +54,7 @@ cd nome-do-projeto
 
 # Execute o projeto
 ./mvnw spring-boot:run
+
+```
+##  Créditos
+Este projeto foi desenvolvido baseado no material do **Prof.Dr. Nelio Alves**.
