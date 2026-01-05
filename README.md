@@ -1,6 +1,9 @@
 # Projeto Web Services com Spring Boot e JPA / Hibernate
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/seu-usuario/seu-repositorio/blob/main/LICENSE)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
 ## Sobre o projeto
 
@@ -47,7 +50,7 @@ A aplicação segue o modelo de domínio abaixo, contemplando relacionamentos de
 ### Passos para execução
 ```bash
 # Clone o repositório
-git clone [https://github.com/seu-usuario/nome-do-projeto.git](https://github.com/seu-usuario/nome-do-projeto.git)
+git clone [https://github.com/seu-usuario/webservices-jpa.git](https://github.com/seu-usuario/webservices-jpa.git)
 
 # Entre na pasta do projeto
 cd nome-do-projeto
